@@ -1,0 +1,22 @@
+%message{
+    padding: 20px;
+    margin: 10px;
+    border: solid 3px;
+    text-align: center;
+    color: white;
+}
+.msucess{
+    @extend %message;
+    background-color: green;
+    border-color: white
+}
+.mwarning{
+    @extend %message;
+    background-color: chocolate;
+    border-color: darkgreen
+}
+.merror{
+    @extend %message;
+    background-color: red;
+    border-color: gold;
+}
